@@ -1,0 +1,6 @@
+
+
+spring:
+  thymeleaf:
+    cache: false  # 开发时关闭缓存,不然没法看到实时页面
+    mode: LEGACYHTML5  # 默认值是HTML5，其实是一个很严格的检查,LEGACYHTML5需要搭配一个额外的库NekoHTML才可用
