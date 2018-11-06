@@ -47,7 +47,7 @@
             </dependency>
             <!-- END Override thymeleaf version  -->
 
-            <!-- 统一管理Spring依赖 -->
+            <!-- 统一管理Spring依赖 BOM-->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
@@ -67,6 +67,31 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <!-- 私服地址配置
+    <repositories>
+        <repository>
+            <id>release</id>
+            <url>http://xxx.com/release/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>milestone</id>
+            <url>http://xxx.com/milestone/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>snapshot</id>
+            <url>http://xxx.com/snapshot/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>-->
 
 
 </project>
